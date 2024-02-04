@@ -13,9 +13,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
     }
     .widgets{
         color: white;
+        font-size: 1.5rem;
+
     }
     .main{
         margin-top: 5px;
@@ -23,32 +26,38 @@
         height: 300px;
         display: flex;
         justify-content: flex-start;
+        align-items: start;
+
     }
     .big-widgets{
         margin-right: 10px;
         background-color: darkblue;
-        width: 300px;
-        height: 300px;
+        /*width: 300px;*/
+        height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
+        flex: 1;
     }
+    
     .bigger-widgets{
         margin-right: 10px;
         background-color: darkblue;
-        width: 600px;
-        height: 300px;
+        /*width: 600px;*/
+        height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
+        flex: 1;
     }
     .huge-widgets{
         background-color: darkblue;
-        width: 900px;
-        height: 300px;
+        /*width: 900px;*/
+        height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
+        flex: 1;
     }
     .footer{
         margin-top: 5px;
@@ -65,7 +74,6 @@
 </head>
 <body>
     <div class="header"><p class="widgets">Widgets</p></div>
-
     <div class="main">
         <div class="big-widgets"><p class="widgets">Big-Widgets</p></div>
         <div class="bigger-widgets"><p class="widgets">Bigger-Widgets</p></div>
