@@ -1,0 +1,32 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+section a{
+    text-decoration: black;
+    font-size: 50px;
+}
+section p{
+    padding: 0 100px;
+}
+section{
+    font-family: 'Protest Revolution', sans-serif;
+    font-size: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#indianred{
+    background-color: indianred;
+}
+#aqua{
+    background-color: aqua;
+}
+#green{
+    background-color: green;
+}

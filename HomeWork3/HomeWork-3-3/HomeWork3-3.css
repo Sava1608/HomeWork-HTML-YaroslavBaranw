@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+header p{
+    padding: 0 100px;
+}
+footer p{
+    padding: 0 100px;
+}
+header{
+    height: 50vh;
+    background-color: pink;
+}
+footer{
+    height: 50vh;
+    background-color: #2a2828;
+    color: white;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Frame1</title>
+    <style>
+        /*1.Я вираховув як показувала Діана, але на моєму ноутбуці відображається по-іншому трошки
+        це нормально? Ну я старався,надіюсь правильно
+        2.В подальших роботах код завеликий чи ні? Я розумію що через CSS можна було це робити але я трошки спішив
+        3.Ну і надіюсь я все зробив коректно, можливо будуть якісь поради, можливо щось лишнє зробив
+        4.І коментар я додав тільки в цю роботу в інші не добавляв, бо спішив))*/
+        body{
+            margin: 0;
+        }
+        header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 20vh;
+            background: #D9D9D9;
+        }
+        main{
+            display: flex;
+        }
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+        }
+        .News-1{
+            height: 60vh;
+            width: 30vw;
+            background: #817C7C;
+        }
+        .content{
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .Content-1{
+            height: 30vh;
+            width: 70vw;
+            background: #ABA8A8;
+        }
+        .Content-2{
+            height: 30vh;
+            width: 70vw;
+            background: #878484;
+        }
+        .Sponsor{
+            height: 60vh;
+            width: 30vw;
+            background: #B7AEAE;
+        }
+        footer{
+            height: 20vh;
+            background: #BDBDBD;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+        }
+    /*Напевно можна було,більш оптимізовано написати код((*/
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Header</h1>
+    </header>
+<!--    В мейні я зробив 4 секції і додав класи до них,замість різних тегів, підкажіть чи це правильно,можливо є кращий варіант-->
+    <main>
+        <section class="News-1">
+            <p>News</p>
+        </section>
+        <div class="content">
+        <section class="Content-1">
+            <p>Content-1</p>
+        </section>
+        <section class="Content-2">
+            <p>Content-2</p>
+        </section>
+        </div>
+        <section class="Sponsor">
+            <p>Sponsor</p>
+        </section>
+    </main>
+    <footer>
+        <p>Footer</p>
+    </footer>
+</body>
+</html>
