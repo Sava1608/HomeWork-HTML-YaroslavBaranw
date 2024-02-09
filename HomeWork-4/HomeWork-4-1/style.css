@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    font-family: 'KoHo', sans-serif;
+}
+/*Це початок першої сторінки*/
+.first{
+    width: 100%;
+    height: 100vh;
+    background-image: url("img/image 4.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-and-text{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    height: 40vh;
+    width: 70vw;
+    background-color: white;
+    display: flex;
+}
+.img{
+    width: 50%;
+    height: 100%;
+    background-image: url("img/image 3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text h1{
+    margin-bottom: 0;
+    font-size: 40px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 400;
+}
+.text p {
+    font-size: 25px;
+    font-weight: 400;
+}
+button{
+    font-size: 30px;
+    width: 409px;
+    height: 76px;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+/*Це кінець першої сторінки*/
+/*Це початок другої сторінки*/
+.second{
+    width: 100%;
+    height: 100vh;
+    background-image: url("img/Rectangle 4.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video-and-text{
+    width: 50%;
+    height: 80%;
+}
+.video{
+    width: 100%;
+    height: 70%;
+    margin-bottom: 50px;
+}
+.text1{
+    width: 100%;
+    height: 30%;
+    font-size: 20px;
+}
+/*Це кінець другої сторінки*/
+
+/*Це початок третьої сторінки*/
+.three{
+    width: 100%;
+    height: 100vh;
+    background-image: url("img/Rectangle 16.png");
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    width: 30vw;
+    height: 80vh;
+    background: rgba(83, 83, 83, 0.40);
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    width: 30vw;
+    height: 80vh;
+    background: rgba(83, 83, 83, 0.40);
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    width: 30vw;
+    height: 80vh;
+    background: rgba(83, 83, 83, 0.40);
+}
+/*Це кінець третьої сторінки*/
