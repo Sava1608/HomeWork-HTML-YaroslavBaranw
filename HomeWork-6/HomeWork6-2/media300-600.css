@@ -1,0 +1,23 @@
+@media screen  and (min-width: 300px) and (max-width: 600px){
+    main{
+        height: 90vh;
+        flex-direction: column;
+    }
+    .mainbox{
+        width: 100vw;
+        height: 75vh;
+    }
+    header,
+    .box5{
+        width: 100vw;
+        height: 10vh;
+    }
+    .box1{
+        width: 100vw;
+        height: 60vh;
+    }
+    .box2,.box3,.box4{
+        width: 33vw;
+        height: 15vh;
+    }
+}

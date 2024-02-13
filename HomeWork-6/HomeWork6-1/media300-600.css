@@ -1,0 +1,15 @@
+@media screen and (min-width: 300px) and (max-width: 600px) {
+
+    header,
+    .box2{
+        width: 100vw;
+        height: 15vh;
+    }
+    .box1{
+        width: 100vw;
+        height: 75vh;
+    }
+    main{
+        flex-direction: column;
+    }
+}

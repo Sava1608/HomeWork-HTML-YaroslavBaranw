@@ -1,0 +1,40 @@
+body{
+    margin: 10px;
+}
+h1{
+    font-size: 40px;
+    color: white;
+}
+header{
+    height: 20vh;
+    background: gray;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+
+}
+.box1{
+    margin-right: 5px;
+    margin-top: 5px;
+    width: 65vw;
+    height: 75vh;
+    background: gray;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    margin-top: 5px;
+    width: 33vw;
+    height: 75vh;
+    background: gray;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
